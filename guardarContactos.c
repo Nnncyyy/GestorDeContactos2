@@ -42,7 +42,7 @@ int main() {
         {
         case 1:
             fflush(stdin);
-            printf("1. Nuevo contacto. \n");
+            printf("1. Agregar contacto. \n");
             if (num_contacto<100){
                 printf("Ingrese la informacion solicitada: \n");
 
@@ -59,7 +59,7 @@ int main() {
         
         case 2:
             printf("2. Mostrar contacto. \n");
-            printf("Ingrese el nombre del contacto que desea imprimir: \n");
+            printf("Ingrese el nombre del contacto que desea mostrar: \n");
             scanf("%[^\n]",buscar_nombre);
             fflush(stdin);
 
@@ -93,7 +93,7 @@ int main() {
             break;
 
         case 4:
-            printf("5. Eliminar contacto. \n");
+            printf("4. Eliminar contacto. \n");
             printf("Ingrese el nombre del contacto que desea eliminar: \n");
             scanf("%[^\n]",buscar_nombre);
             fflush(stdin);
@@ -109,20 +109,17 @@ int main() {
             break;
             
         case 5:
-            
+            printf("5. Guardar contacto  \n");
             if(num_contacto != 0){
                 guardarContacto(num_contacto,contacto);
                 printf("Contactos guardados con exito. \n");
             } else {
                 printf("No se a registrado ningun contacto. \n");
             }
-            
             break;    
             
         case 0:
-        
             printf("Saliendo.... \n");
-            
             break;
             
         default: 
