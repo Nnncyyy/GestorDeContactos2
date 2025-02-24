@@ -16,7 +16,7 @@ Esta práctica requiere de conocimientos previos
 
 ### Instalación y uso
 1. Clona este repositorio:
-> git clone https://github.com/tu-usuario/GestorDeContactos.git
+> git clone https://github.com/Nnncyyy/GestorDeContactos.git
 2. Compila el programa con un compilador de C:
 > gcc gestor_contactos.c -o gestor_contactos
 3. Ejecuta el programa:
